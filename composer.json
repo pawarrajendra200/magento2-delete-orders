@@ -1,0 +1,23 @@
+{
+  "name": "tech-raj/module-delete-orders",
+  "description": "Magento 2 Delete Orders extension",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "authors": [
+        {
+            "name": "Rajendra pawar",
+            "email": "pawarrajendra200@gmail.com",
+            "homepage": "",
+            "role": "Magento developer"
+        }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "TechRaj\\DeleteOrders\\": ""
+    }
+  }
+}
